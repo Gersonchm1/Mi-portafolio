@@ -1,4 +1,4 @@
- /* Estilos generales */
+
         body {
             margin: 0;
             padding: 0;
@@ -7,7 +7,7 @@
             color: #1e1b36;
         }
 
-        /* Estilos de la sección de presentación */
+     
         .seccion-presentacion {
             display: flex;
             align-items: center;
@@ -51,7 +51,7 @@
             color: white;
         }
         
-        /* Estilos de la sección "Acerca de mi" */
+       
         .seccion-acerca {
             background-color: #00bcd4;
             padding: 50px 0;
@@ -110,7 +110,7 @@
             color: #00bcd4;
         }
 
-        /* Estilos de la nueva sección "Proyectos" */
+        
         .seccion-proyectos {
             padding: 50px 0;
             background-color: #ffffff;
@@ -123,7 +123,7 @@
             margin-bottom: 40px;
         }
         
-        /* Contenedor de proyectos en columna */
+      
         .proyectos-container {
             display: flex;
             flex-direction: column;
@@ -133,7 +133,7 @@
             padding: 0 20px;
         }
 
-        /* Estilos de cada proyecto */
+      
         .proyecto {
             display: flex;
             align-items: center;
@@ -164,4 +164,5 @@
             width: 500px;
             height: 300px;
             object-fit: cover;
+            border-radius: 15px;
         }
