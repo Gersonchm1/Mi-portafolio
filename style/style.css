@@ -104,6 +104,12 @@
             transition: all 0.3s ease;
             margin-top: 20px;
         }
+        .juna{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
 
         .boton-acerca:hover {
             background-color: #fff;
