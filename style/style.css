@@ -1,0 +1,167 @@
+ /* Estilos generales */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+            background-color: #fff;
+            color: #1e1b36;
+        }
+
+        /* Estilos de la sección de presentación */
+        .seccion-presentacion {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .container-presentacion {
+            text-align: left;
+        }
+
+        .container-presentacion h1 {
+            font-size: 2.5rem;
+            color: #1e1b36;
+            margin: 0;
+        }
+
+        .highlight {
+            color: #00c9a7;
+        }
+
+        .container-presentacion p {
+            font-size: 1.5rem;
+            font-weight: 400;
+            margin: 0 0 20px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 8px 14px;
+            border: 2px solid #00c9a7;
+            border-radius: 3px;
+            color: #00c9a7;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #00c9a7;
+            color: white;
+        }
+        
+        /* Estilos de la sección "Acerca de mi" */
+        .seccion-acerca {
+            background-color: #00bcd4;
+            padding: 50px 0;
+            color: #fff;
+        }
+
+        .seccion-acerca h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .container-acerca {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            max-width: 1000px;
+            margin: 0 auto;
+            gap: 40px;
+            padding: 0 20px;
+        }
+
+        .foto-perfil {
+            flex-shrink: 0;
+            width: 300px;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        
+        .texto-acerca {
+            flex: 1;
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        .texto-acerca p {
+            margin-bottom: 20px;
+        }
+
+        .boton-acerca {
+            display: inline-block;
+            padding: 10px 20px;
+            border: 2px solid #fff;
+            border-radius: 3px;
+            color: #fff;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            margin-top: 20px;
+        }
+
+        .boton-acerca:hover {
+            background-color: #fff;
+            color: #00bcd4;
+        }
+
+        /* Estilos de la nueva sección "Proyectos" */
+        .seccion-proyectos {
+            padding: 50px 0;
+            background-color: #ffffff;
+            text-align: center;
+        }
+
+        .seccion-proyectos h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 40px;
+        }
+        
+        /* Contenedor de proyectos en columna */
+        .proyectos-container {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Estilos de cada proyecto */
+        .proyecto {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .proyecto:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        .proyecto-info {
+            flex: 1;
+            text-align: left;
+        }
+
+        .proyecto-info h3 {
+            font-size: 1.5rem;
+            margin-top: 0;
+        }
+
+        .proyecto-info p {
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .proyecto-img {
+            width: 500px;
+            height: 300px;
+            object-fit: cover;
+        }
